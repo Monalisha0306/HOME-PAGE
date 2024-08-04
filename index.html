@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .content {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .featured-products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .product {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .product h2 {
+      margin-top: 0.5rem;
+    }
+
+    .product p {
+      margin-bottom: 0;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .pagination button {
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #ccc;
+      cursor: pointer;
+    }
+
+    .pagination button.active {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .contact-us {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 2rem;
+    }
+
+    .contact-us a {
+      padding: 0.5rem 1rem;
+      margin-left: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #ccc;
+      text-decoration: none;
+      color: #333;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Home Page</h1>
+    <h2>B.planet</h2>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h1>'Heading'</h1>
+
+      <h2>Featured Products</h2>
+      <div class="featured-products">
+        <div class="product">
+          <img src="product1.jpg" alt="Product 1">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product2.jpg" alt="Product 2">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product3.jpg" alt="Product 3">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product4.jpg" alt="Product 4">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product5.jpg" alt="Product 5">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product6.jpg" alt="Product 6">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product7.jpg" alt="Product 7">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product8.jpg" alt="Product 8">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+        <div class="product">
+          <img src="product9.jpg" alt="Product 9">
+          <h2>Title</h2>
+          <p>Description</p>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button>Previous</button>
+        <button class="active">1</button>
+        <button>Next</button>
+      </div>
+
+      <div class="contact-us">
+        <a href="#">Contact Us</a>
+        <a href="#">Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
